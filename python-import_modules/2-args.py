@@ -5,7 +5,7 @@ if __name__ == "__main__":
     if num == 0:
         print("{}".format("0 arguments."))
     elif num == 1:
-        print("{}".format("1 argument."))
+        print("{}".format("1 argument:"))
         print("{}".format(f"1: {argv[1]}"))
     else:
         print("{}".format(f"{num} arguments."))
