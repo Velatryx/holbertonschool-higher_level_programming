@@ -9,5 +9,5 @@ if __name__ == "__main__":
         print("{}".format(f"1: {argv[1]}"))
     else:
         print("{}".format(f"{num} arguments:"))
-        for i in (1, num):
+        for i in range(1, num + 1):
             print("{}".format(f"{i}: {argv[i]}", end="\n"))
