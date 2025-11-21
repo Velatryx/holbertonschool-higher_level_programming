@@ -6,5 +6,5 @@ def best_score(a_dictionary):
         best = next(iter(a_dictionary.values()))
         if value > best:
             best = value
-            best_key = key
+        best_key = key
     return best_key
