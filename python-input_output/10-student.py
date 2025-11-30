@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """Defines a Student class with attribute filtering."""
-    
+
 
 class Student:
     """Represents a student."""
