@@ -1,5 +1,2 @@
--- Print the structure of first_table without using DESCRIBE or EXPLAIN
-SELECT COLUMN_NAME, COLUMN_TYPE, IS_NULLABLE, COLUMN_DEFAULT
-FROM INFORMATION_SCHEMA.COLUMNS
-WHERE TABLE_SCHEMA = DATABASE()
-  AND TABLE_NAME = 'first_table';
+-- List all rows from the table first_table
+SELECT * FROM first_table;
